@@ -42,7 +42,7 @@ main{
 
 #main-title{
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 60px;
     padding-right: var(--grip-gap);
     padding-bottom: 35px;
     padding-left: var(--grip-gap);
@@ -156,6 +156,8 @@ main{
     padding: var(--contentbox-heigh-padding) var(--headline-side-padding);
     width: calc(100% - (var(--headline-side-padding)*2));
     height: auto;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 #section-objective .grid-item .content .content-box .content-text-english{
@@ -567,6 +569,12 @@ main{
     .content-text-english, .content-title-english{
         font-size: 19px!important;
         line-height: 23px!important;
+    }
+
+    #section-event .grid-item .content .content-box ol{
+        font-size: 19px;
+        line-height: 23px;
+        font-weight: 400;
     }
 }
 
